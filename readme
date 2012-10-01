@@ -1,0 +1,8 @@
+Powered by C#/ASP.NET (version 4.0 of the .NET Framework) connecting to a Controlsoft Pro SQL 2008 database
+         in the local SQLEXPRESS instance. To alter the SQL connection string open up the Web.config file in Microsoft
+         Visual Web Developer.     
+
+         The table of Employees denote those who are currently registered as being in the inside zone refreshes every 5 seconds (5000ms) using a Timer function in
+         the Default.aspx and Default.aspx.cs files. The last refresh is indicated just above the table.
+
+        Beta version 0.2 added a search function to search Employees onsite. Search results are returned in green on in the right hand side of the homepage.
